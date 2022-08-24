@@ -1,0 +1,171 @@
+.show-message {
+  animation: copy 2s infinite ease;
+  border-radius: 10px;
+  padding: 0.5em;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  z-index: 1;
+}
+
+@keyframes copy {
+
+  0% {
+    background-color: rgba(49, 49, 49, 0.61);
+    box-shadow: 0 0 2px 2px  rgba(0, 0, 0, 0.61);
+    color: white;
+    transform: scale(0.8);
+    transition: 0.2s;
+  }
+
+  50% {
+    background-color: rgba(49, 49, 49, 0.61);
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.61);
+    color: white;
+    transform: scale(0.85);
+    transition: 0.2s;
+  }
+
+  100% {
+    background-color: rgba(151, 151, 151, 0);
+    color: white;
+    transform: scale(0.8);
+    transition: 0.2s;
+  }
+}
+
+.hidden-message {
+  visibility: hidden;
+}
+
+.main-done-recipes {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: 18vh;
+}
+
+.cardItem {
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.281);
+  display: flex;
+  margin-top: 1em;
+  transform: scale(0.9);
+  transition: 0.2s;
+  width: 100vw;
+}
+
+.cardItem:hover {
+  box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.3);
+  transform: scale(0.9);
+  transition: 0.2s;
+}
+
+.image-card {
+  width: 50%;
+}
+
+.image-card img {
+  border-radius: 10px 0 0 10px;
+  max-width: 100%;
+  width: 100%;
+}
+
+
+.content-card {
+  align-items: center;
+  background-color: white;
+  border-radius: 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.text-card {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  text-indent: 0.5em;
+  width: 100%;
+}
+
+.text-card .recipe-category {
+  color: rgb(141, 141, 141);
+  height: 1.5em;
+  margin-top: 0.1em;
+}
+
+.text-card .recipe-name {
+  color: rgb(59, 59, 59);
+  font-weight: 600;
+  height: 2em;
+}
+
+.text-card .recipe-date {
+  color: rgb(59, 59, 59);
+  height: 1.5em;
+}
+
+.tags {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  margin: auto;
+  width: 100%;
+}
+
+.tags .tag-name {
+  background-color: rgb(161, 161, 161);
+  border-radius: 6px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  padding: 0.3em 0.6em;
+  text-indent: 0;
+}
+
+.buttons-card {
+  background-color: rgb(233, 233, 233);
+  border-radius: 0 0 10px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  width: 100%;
+}
+
+.share-button {
+  border: 0;
+  border-radius: 0 0 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.share-button:focus {
+  border: none;
+  outline: none;
+  outline-style: none;
+}
+
+.share-button:active {
+  background-color: rgb(184, 184, 184);
+  transform: scale(0.95);
+}
+
+.favorite-button {
+  border: 0;
+  border-radius: 0 0 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.favorite-button:focus {
+  border: none;
+  outline: none;
+  outline-style: none;
+}
+
+.favorite-button:active {
+  background-color: rgb(184, 184, 184);
+  transform: scale(0.95);
+}
+

@@ -1,0 +1,8 @@
+.ingredients-lib {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 82px;
+  max-width: 360px;
+  padding: 15px;
+}

@@ -1,0 +1,40 @@
+.tab-buttons {
+  align-items: center;
+  background-image: linear-gradient(lightgray, rgba(197, 197, 197, 0.699));
+  border: 0;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.308);
+  display: flex;
+  height: 9vh;
+  justify-content: space-around;
+  position: fixed;
+  top: 10vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+.tab-buttons button {
+  border: 0;
+  border-radius: 5px;
+  height: 90%;
+  transform: scale(0.85);
+  transition: 0.3s;
+  width: 100%;
+}
+
+.tab-buttons button:hover {
+  border: none;
+  outline: none;
+  outline-style: none;
+  transform: scale(0.9);
+  transition: 0.3s;
+}
+
+.tab-buttons button:focus {
+  border: none;
+  outline: none;
+  outline-style: none;
+}
+
+.selected-button {
+  background-color: rgb(175, 175, 175);
+}

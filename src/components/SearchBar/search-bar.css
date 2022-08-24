@@ -1,0 +1,43 @@
+.main-container {
+  animation: expand 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 10vh 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.search-input input {
+  margin-top: 1em;
+  transform: scale(0.95);
+  width: 100vw;
+}
+
+.radios {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 5px;
+}
+
+.search-btn {
+  align-self: flex-start;
+}
+
+@keyframes expand {
+
+  0% {
+    background-color: whitesmoke;
+    margin-top: -5vh;
+    transition: 0.2s;
+
+  }
+
+  100% {
+    background-color: rgba(245, 245, 245, 0.699);
+    margin-top: 10vh;
+    transition: 0.2s;
+  }
+}
+

@@ -1,0 +1,49 @@
+.main-header {
+  align-items: center;
+  background-color: lightgray;
+  display: flex;
+  height: 10vh;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 2;
+}
+
+.title-header {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.title-header p {
+  font-size: 1.5em;
+  font-weight: 300;
+  margin: auto;
+  text-align: center;
+}
+
+.perfil-icon {
+  width: 2em;
+}
+
+.icon-Search {
+  width: 2em;
+}
+
+.icon-Search button {
+  background: none;
+  border: none;
+}
+
+.icon-Search button:hover {
+  outline-style: none;
+}
+
+.icon-Search button:active {
+  outline-style: none;
+}
+
+.icon-Search button:focus {
+  outline-style: none;
+}

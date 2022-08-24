@@ -1,0 +1,10 @@
+.ingredient-card {
+  background-color: lightgrey;
+  border: 1px solid black;
+  border-radius: 7px;
+  box-shadow: 4px 4px 5px grey;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  width: 130px;
+}
